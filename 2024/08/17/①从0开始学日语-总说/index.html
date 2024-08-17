@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html 
+	lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+<link rel="stylesheet" href="/css/layout.css">
+
+		
+		<title> ①从0开始学日语-总说 -  八土叉的博客</title>
+		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
+		<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+		<!-- lazyload -->
+		<script src="https://unpkg.com/lazysizes@5.1.0/lazysizes.min.js"></script>
+		<!-- smooth-scrolling -->
+		<script src="https://unpkg.com/smooth-scrolling.js@1.0.0"></script>
+		<!-- highlight -->
+		<link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/atom-one-dark.min.css" />
+		<script src="//unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
+		<!-- 预置 kiraicon -->
+		
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+
+		
+		<link
+			rel="shortcut icon"
+			href="https://raw.githubusercontent.com/batucha/picture/main/head.jpg"
+			type="image/png"
+		/>
+		
+<link rel="stylesheet" href="/deps/css/APlayer.min.css">
+
+		
+			
+				
+<link rel="stylesheet" href="/style.css">
+
+			
+				
+<link rel="stylesheet" href="/custom.css">
+
+			
+		
+		
+<script src="/deps/js/APlayer.min.js"></script>
+<script src="/deps/js/Meting.min.js"></script>
+
+	<meta name="generator" content="Hexo 6.3.0"></head>
+
+	<body>
+		<div
+			class="kira-background"
+			style="background-image: url('https://raw.githubusercontent.com/batucha/picture/main/scene_1.jpg')"
+		></div>
+		<div class="kira-header">
+    <a
+        class="kira-drawer-button mdui-ripple"
+        title="导航栏"
+        onclick="document.querySelector('.kira-sidebar-modal').classList.add('show');document.querySelector('.kira-sidebar#sidebar').classList.add('show');"
+    >
+        <i class="kirafont icon-menu"></i>
+    </a>
+    <a href="/" title="八土叉的博客">
+        <img
+			src="https://raw.githubusercontent.com/batucha/picture/main/head.jpg"
+			alt="八土叉"
+		/>
+    </a>
+</div>
+		<div class="kira-body">
+			<div class="kira-sidebar" id="sidebar">
+	<div class="kira-avatar mdui-ripple">
+		<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/batucha/picture/main/head.jpg" title="八土叉">
+			<img
+				src="https://raw.githubusercontent.com/batucha/picture/main/head.jpg"
+				alt="八土叉"
+			/>
+		</a>
+	</div>
+	<div class="kira-count">
+		<div><span>文章</span>7</div>
+		<div><span>标签</span>4</div>
+		<div><span>分类</span>3</div>
+	</div>
+	<div class="kira-list">
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/"
+			title="回到首页"
+		>
+			<i
+				class="kirafont
+					
+						icon-home
+					"
+			></i>
+			<div class="kira-list-item-content">
+				回到首页
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/archive.html"
+			title="文章归档"
+		>
+			<i
+				class="kirafont
+					
+						icon-container
+					"
+			></i>
+			<div class="kira-list-item-content">
+				文章归档
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/about.html"
+			title="关于本人"
+		>
+			<i
+				class="kirafont
+					
+						icon-user
+					"
+			></i>
+			<div class="kira-list-item-content">
+				关于本人
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/friends.html"
+			title="我的朋友"
+		>
+			<i
+				class="kirafont
+					
+						icon-team
+					"
+			></i>
+			<div class="kira-list-item-content">
+				我的朋友
+			</div>
+		</a>
+		
+	</div>
+	<aside id="kira-sidebar">
+		
+			<div class="kira-widget-wrap">
+	<div class="kira-widget kira-social">
+		
+			<a
+				class="mdui-ripple"
+				href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1979526139&website=www.oicqzone.com"
+				target="_blank"
+				mdui-tooltip="{content: 'QQ'}"
+				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-QQ
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://www.pixiv.net/users/56923190"
+				target="_blank"
+				mdui-tooltip="{content: 'Pixiv'}"
+				style="color: rgb(0, 191, 255); background-color: rgba(0, 191, 255, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-caret-up
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://space.bilibili.com/13926977"
+				target="_blank"
+				mdui-tooltip="{content: '哔哩哔哩'}"
+				style="color: rgb(231, 106, 141); background-color: rgba(231, 106, 141, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-bilibili
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://github.com/batucha/"
+				target="_blank"
+				mdui-tooltip="{content: 'GitHub'}"
+				style="color: rgb(25, 23, 23); background-color: rgba(25, 23, 23, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-github
+					"
+				></i>
+			</a>
+		
+	</div>
+</div>
+
+		
+			
+  <div class="kira-widget-wrap">
+    <h3 class="kira-widget-title">分类</h3>
+    <div class="kira-widget">
+      <ul class="category-list">
+        
+        
+
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/日语/">
+              日语
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/杂谈/">
+              杂谈
+            </a>
+            <span class="category-list-count">3</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/绘画/">
+              绘画
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+		
+			
+	<div class="kira-widget-wrap">
+		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
+			<a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/" style="font-size: 20px;">博客建设</a> <a href="/tags/%E5%90%90%E6%A7%BD/" style="font-size: 10px;">吐槽</a> <a href="/tags/%E6%97%A5%E8%AF%AD/" style="font-size: 10px;">日语</a> <a href="/tags/%E7%BB%98%E7%94%BB/" style="font-size: 10px;">绘画</a>
+		</div>
+		
+	</div>
+
+
+		
+	</aside>
+	<div class="kira-copyright">
+		&copy; 2024
+		<a href="/">八土叉</a>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
+		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
+		<br />
+		
+			<a
+				href="https://beian.miit.gov.cn/"
+				target="_blank"
+			>
+				赣ICP备114514号
+			</a>
+		
+		勿意，勿必，勿固，毋我。 '<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div><div><span id="busuanzi_container_site_uv">共接待访客<span id="busuanzi_value_site_uv"></span>位</span></div>'
+	</div>
+</div>
+<div
+	class="kira-sidebar-modal"
+	id="sidebar-modal"
+	onclick="(function(self) {
+		self.classList.remove('show');
+		document.querySelector('.kira-sidebar.show#sidebar').classList.remove('show');
+	})(this)"
+></div>
+			<div class="kira-content">
+				<div id="kira-top-header"></div>
+				<div class="kira-main-content">
+					
+<link rel="stylesheet" href="/css/kira-image.css">
+
+
+<script src="/js/kira-image.js"></script>
+
+<div class="kira-image">
+    <div class="kira-image-modal">
+        <div class="kira-image-header">
+            <div class="kira-image-counter"></div>
+            <div class="kira-image-title"></div>
+            <div class="kira-image-operation">
+                <div class="kira-image-operation-button" id="kira-image-operation-button-zoom">
+                    <i class="kirafont icon-zoom-in"></i>
+                </div>
+                <div class="kira-image-operation-button" id="kira-image-operation-button-close">
+                    <i class="kirafont icon-close"></i>
+                </div>
+            </div>
+        </div>
+        <div class="kira-image-container">
+            <div class="kira-image-prev-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-left"></i>
+                </div>
+            </div>
+            <div class="kira-image-list">
+                <div class="kira-image-prev">
+                    <img />
+                </div>
+                <div class="kira-image-now">
+                    <img />
+                </div>
+                <div class="kira-image-next">
+                    <img />
+                </div>
+            </div>
+            <div class="kira-image-next-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="kira-post">
+	<article>
+		
+		<div
+			class="kira-post-cover"
+			style="padding-bottom: '56.25%'"
+		>
+			<img
+				data-src="https://raw.githubusercontent.com/batucha/picture/main/scene_1.jpg"
+				data-sizes="auto"
+				alt="①从0开始学日语-总说"
+				class="lazyload kira-post-cover-image disabled-kira-image"
+			/>
+			<h1>①从0开始学日语-总说</h1>
+		</div>
+		
+		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
+			<a><i class="kirafont icon-calendar-fill"></i>2024年08月17日</a>
+			<a><i class="kirafont icon-edit-fill"></i>2.6k 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 10 分钟</a>
+		</div>
+		<p>开一个新系列。也算是对我这几年来日语学习的一个交代。<br>本教程适用于完全没有接触过日语的同学。欢迎各位日语学习者们前来指正。</p>
+<p>开始编辑于2024年8月17日<br>发布日期2024年8月18日</p>
+<hr>
+<p>先聊聊自己学日语的经历。</p>
+<p>不知道各位是因为什么才学的日语呢。我是因为高考前英语太差了，正好学校有日语班，于是就学习了日语。<del>大概也和从小就被AGCN文化的耳濡目染有关。</del></p>
+<p>高一下学期开的日语课。几个班学日语的和学英语的，会分开来去某个教室上课。最开始的时候并没有给书，而是在一个大礼堂里不断让我们念一些寒暄语，你好再见之类的。然后会唱假名歌，旨在熟悉日语假名的发音。后来正式上课，用的是《标准日本语》初级上，那本黄色的书。不过也还没到学课本。先是学了一两周假名，让我们把平假名和片假名背的差不多了再讲课本。</p>
+<p>在日语初学的课本方面，使用《标准日本语》还是《大家的日本语》存在争议。（以下简称标日，大日）<br>就我个人，我更喜欢《标日》。标日简化了一些语法概念，会日本的教材有出入。而且因为只有「ます」体（敬语体），但是每课的语法都很丰富，单词目录很清晰。而且课文是有连贯的剧情的。相较于《大日》，更适合考JLPT的同学学习。<br>最重要的是。我喜欢标日的水墨画风。<del>纸质摸着也很舒服。</del></p>
+<p>最开始背单词是最难的。因为假名还不熟。每次背单词都要去重新看一遍假名的发音，比较麻烦。<br>每课最后会有个单词表。上面有单词的汉字，假名，中文意思。背的时候就抄在纸上，一列汉字一列假名。背的时候遮住假名想汉字&#x2F;遮住汉字想假名&#x2F;遮住汉字想中文意思。背完了要去读背课文。背课文，我是想着中文的意思，然后翻译成日语。作业有写作和试卷、语法题。除了标日外，还会买一本配套的标日练习题。有时候就要求写那上面的题目。<del>我觉得这本配套的书上的题有些无聊</del>  </p>
+<p>课本上有生涩的单词，但在学校又没有手机，查不了。就需要买一本字典。<br>我用的是那本很大的黑的，外研社的《日汉双解日语词典》。有条件的就买卡西欧的电子词典。<del>我没钱买</del>。但是如果<strong>能用手机电脑就都别买</strong>了。字典查单词麻烦死了。手机电脑一打字，什么意思例句关联词全出来了，方便的很。</p>
+<p>高考日语没能考到自己理想的分数，就不说了。后来进了大学后学的专业也是日语。于是在大学进行了第二次学习————<br>才怪嘞。大一整整一年没有学习，直到大二下学期才渐渐从娱中缓过来。因为班里有高考是日语，或者学过日语的。也有日语0基础进的日语专业的同学。为了照顾到0基础的同学，<strong>就真的从0开始</strong>，从假名开始教了。当时人都傻了，最开始还有听一听，过几周觉得上课一点用都没有。反正吃老本不听课考试也能过，不如干点别的去。<del>（除了学习）</del><br>当时只不过是在享受刚进入大学的生活而已。</p>
+<p>大二下学期要考专四，而且0基础的同学也渐渐赶上来了，就回头稍微学了下。然后发现大一这一年吃老本吃昏头了，零零碎碎的知识忘光了，导致后面学习有些吃力。只能回头花时间把在高中学过的&#x2F;大学没听的东西重新自己看一遍，这才算完。考试也没什么起色。竞赛和活动也没去参与。没有目标的日子过的多了，人就废了。后面就天天不上课，画画或者干嘛到通宵，白天睡觉。60分万岁了。甚至有些考试都没去考。结果就是后面写简历很难看。评优更别想了。日子越过越颓废了。</p>
+<p>后来大三上学期一点也没学习。全身心投入到画画参展去了。虽没做出什么成绩，但也结识了不少朋友。还算很充实。代价是美国作息，三餐不正，整个人虚到不行。大三上学期快结束的时候写了几套真题，过了几遍蓝宝书就去考N1了。红宝书我估计就浏览了20%这样。后来擦线过了。虽然分数不好看，但起码我也是有N1证书的人了。<del>（至此，日语学习正式刚刚开始。）（其实除了多了个装逼的资本外，就写简历会漂亮些而已。）</del></p>
+<p>不足的地方我心知还有很多，可我太急于追求功利了。学这么多有用吗。如果不是为了考试，我会去学他吗。学了又忘，反复学多枯燥，不如干点别的吧。等想法在内心阴暗地萌生。后来为了考研买了很多教材，也没真正学过一遍。未来还会去学吗。我不知道。我希望我能刷个学历，去个好一些的学校再当几年学生。</p>
+<p>知识是无穷的。在无穷面前，1和1*10^<sup>9</sup>没什么区别。想学就学，有空就学。别学到抑郁跳楼就好。<br>我如是想道。</p>
+<p>上面就是我日语学习的一些经历。如果未来再有新的经历，到有兴趣了我会回来补充。</p>
+<p>写于2024年8月18日</p>
+<hr>
+<p>接下来是正文，“日本语总说”。一共三个部分。  </p>
+<ol>
+<li><a href="#%E6%8F%90%E5%89%8D%E8%AF%B4%E6%98%8E">提前说明</a>  </li>
+<li><a href="#%E5%81%87%E5%90%8D">假名</a>  </li>
+<li><a href="#%E8%AF%AD%E6%B3%95">语法</a>  </li>
+<li><a href="#%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95">学习方法</a></li>
+</ol>
+<p><a id="提前说明"></a></p>
+<h1><span id="1提前说明">1.提前说明</span></h1><p>需要提前说明的，只有关于“汉字”的定义</p>
+<blockquote>
+<p>中文：我今天吃了苹果<br>日文：今日、リンゴを食べた<br>汉字：我今天吃了苹果；今日、食</p>
+</blockquote>
+<p>汉字指的是全部的中文，和日文里面汉字的部分。</p>
+<p>有很多人认为日语这门语言，完全就是抄袭中文后的产物（如「誕生日」、「昨日」、「紅葉」之类的词，在中文和日文里，就是汉字本身的意思）。事实是，<strong>文字是抄的，但也仅仅是抄了文字。</strong></p>
+<p>日本是有自己的语言的。也就是在汉字传入日本之前，他们说的可不是中国话，而是古日本话。在汉字传入日本后，人们才渐渐用汉字来指代某些事物。<strong>这些汉字的发音，就是日本本土的语言。</strong></p>
+<p>所以上文中的「誕生日」、「昨日」、「紅葉」几词的发音与汉字不同。分别是：</p>
+<blockquote>
+<p>「誕生日」 たんじょうび<br>「昨日」 さくじつ<br>「紅葉」 もみじ&#x2F;こうよう　 （←是的。日语里也有多音字&#x2F;词）</p>
+</blockquote>
+<p>传入日本那时用的都是繁体字，所以日文里的汉字也都是繁体了。<strong>日语和中文，只有汉字的字型是相同的。其他如语法和词汇、发音、语序都要重新学。</strong><del>（光是看得懂汉字这点就赢老外一大截了。）</del></p>
+<p>自传入日本后经过日本的学习，日本人也自创了中国没有的汉字。如「凪」、「辻」、「雫」、「峠」等。</p>
+<blockquote>
+<p><u><a target="_blank" rel="noopener" href="https://www.wikiwand.com/zh/%E5%92%8C%E5%88%B6%E6%B1%89%E5%AD%97#introduction">和制汉字</a></u>（日语：和製漢字／わせいかんじ Wasei-Kanji）指汉字传入日本后，由日本人创造的汉字。也被称作「国字」、「和字」、「倭字」、「皇朝造字」。将日本人创造的汉字称为“国字”始于江戶時期编纂的《同文通考》和《国字考》。<br>部分和制汉字反过来傳回了中華文化圈，稱之為“逆輸出”，其中有些甚至被漢語接納為常用漢字，如“腺”、“鱈”等字。</p>
+</blockquote>
+<p><a id="假名"></a></p>
+<h1><span id="2假名">2.假名</span></h1><p>学日文就和学英语一样。背单词，学语法。</p>
+<p>英文有26个英文字母，英语单词是由这26个字母组成的。</p>
+<p>日文有“假名”，日语单词的发音都是在“假名”里可查的。</p>
+<blockquote>
+<p>あ い う え お<br>か き く け こ<br>さ し す せ そ<br>た ち つ て と<br>な に ぬ ね の<br>は ひ ふ へ ほ<br>ま み む め も<br>や &emsp; ゆ &emsp; よ<br>ら り る れ ろ<br>わ &emsp;&emsp;&emsp; を  </p>
+</blockquote>
+<p>↑这些就是“假名”（中的平假名）。<strong>假名的假是“假借”<sup><a target="_blank" rel="noopener" href="https://zhidao.baidu.com/question/25417416.html">[1]</a></sup>的意思。</strong>是假借中国古代的草书发展到了平假名。从中国的正楷发展到了片假名（假借偏旁部首）。<strong>所以不存在“真名”的说法。</strong></p>
+<p>除了“平假名”，日语还有“片假名”。他们的发音是一样的，只是字型不同：</p>
+<blockquote>
+<p>ア イ ウ エ オ<br>カ キ ク ケ コ<br>サ シ ス セ ソ<br>タ チ ツ テ ト<br>ナ ニ ヌ ネ ノ<br>ハ ヒ フ ヘ ホ<br>マ ミ ム メ モ<br>ヤ &emsp; ユ &emsp; ヨ<br>ラ リ ル レ ロ<br>ワ &emsp;&emsp;&emsp; ヲ  </p>
+</blockquote>
+<p>综上，日语里的“字母”一共有<font size="10"><strong>90</strong></font>个。</p>
+<p>不全部记住的话是没法学日语的。</p>
+<p><a id="语法"></a></p>
+<h1><span id="3语法">3.语法</span></h1><p>日语有语法。我不专业地把他们如下几类：</p>
+<blockquote>
+<p>1.名词 （数词、代词、专有名词）<br>2.副词&amp;形容词 （副词作用的对象是动作；形容词作用的对象是名词）<br>3.动词<br>4.助词<br>5.叹词 （“呀累呀累daze&#x3D;「やれやれだぜ」”之类的）  </p>
+</blockquote>
+<p>动词和助词是最难的部分。</p>
+<p>之后我会按照如上序列，介绍这几样词类的语法。</p>
+<p><a id="学习方法"></a></p>
+<h1><span id="4学习方法">4.学习方法</span></h1><p><font size="5">教材为主。练习为辅。</font></p>
+<p>不系统的学习犹如走马观花。为此需要一本教材或者跟着一位教师学习。<del>欸，正好我有一位推荐的教师🤓</del></p>
+<p>用《新标准日本语》这本书去学习。</p>
+<p>每一课按照</p>
+<blockquote>
+<p>单词 先把单词背了<br>课文 浏览几遍，<strong>一定要做到能读出整篇课文</strong><br>语法 结合课文看<br>习题 </p>
+</blockquote>
+<p>的顺序学习。</p>
+<p>关于习题，可以直接写标题课文后的习题，也可以写标日配套的练习册和试卷的题目。如果不是为了考试（标日初级是N5-N4难度）可以不写。</p>
+<hr>
+<p>天亮了。先休息。择日再补充。</p>
+<p>2024年8月18日</p>
+
+	</article>
+
+	 
+    <div class="kira-post-copyright">
+        <strong>Author：</strong>八土叉<br>
+        <strong>Link：</strong><a href="http://batucha.github.io/2024/08/17/%E2%91%A0%E4%BB%8E0%E5%BC%80%E5%A7%8B%E5%AD%A6%E6%97%A5%E8%AF%AD-%E6%80%BB%E8%AF%B4/" title="http:&#x2F;&#x2F;batucha.github.io&#x2F;2024&#x2F;08&#x2F;17&#x2F;①从0开始学日语-总说&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;batucha.github.io&#x2F;2024&#x2F;08&#x2F;17&#x2F;①从0开始学日语-总说&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+  
+	<div class="kira-post-nav">
+		<nav class="post-nav">
+			  
+			<!-- 先找到与当前文字相同的目录 -->
+			   
+			<!-- 在找到当前文章所在的 index -->
+			                  
+		</nav>
+	</div>
+	
+	<div class="kira-post-meta kira-rainbow">
+		
+			<a class="kirafont icon-container-fill -link" href="/categories/%E6%97%A5%E8%AF%AD/">日语</a>
+		
+		
+			<a class="kirafont icon-tag-fill -none-link" href="/tags/%E6%97%A5%E8%AF%AD/" rel="tag">日语</a>
+		
+	</div>
+	
+		<script src="/js/kira-code-copy.js"></script>
+	
+	
+	<div class="kira-post-footer">
+		
+
+		
+	<div class="giscus"></div>
+  
+    <script src="https://giscus.app/client.js"
+      data-repo="ch1ny/ch1ny.github.io"
+      data-repo-id="R_kgDOHGgizw"
+      data-category="General"
+      data-category-id="DIC_kwDOHGgiz84CU88t"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="light"
+      data-lang="en"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async  
+    ></script>
+  
+
+	</div>
+	
+</div>
+
+				</div>
+			</div>
+			<div class="kira-right-column">
+	<a onclick="document.querySelector('#kira-top-header').scrollIntoView({behavior: 'smooth'});" class="kira-backtotop" aria-label="回到顶部" title="回到顶部">
+		<button class="mdui-fab mdui-ripple">
+			<i class="kirafont icon-caret-up"></i>
+		</button>
+	</a>
+</div>
+
+		</div>
+	</body>
+</html>
