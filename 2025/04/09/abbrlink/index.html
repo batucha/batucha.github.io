@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"batucha.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="对博客框架的修改、尝试，都将记录于此。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="博客建设日志">
+<meta property="og:url" content="http://batucha.github.io/2025/04/09/abbrlink/">
+<meta property="og:site_name" content="八土叉的巴巴博客">
+<meta property="og:description" content="对博客框架的修改、尝试，都将记录于此。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/batucha/hexo_image/main/cover-gg-v1.jpg">
+<meta property="article:published_time" content="2025-04-08T16:03:36.000Z">
+<meta property="article:modified_time" content="2025-04-08T16:03:36.000Z">
+<meta property="article:author" content="八土叉">
+<meta property="article:tag" content="博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/batucha/hexo_image/main/cover-gg-v1.jpg">
+
+
+<link rel="canonical" href="http://batucha.github.io/2025/04/09/abbrlink/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://batucha.github.io/2025/04/09/abbrlink/","path":"2025/04/09/abbrlink/","title":"博客建设日志"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>博客建设日志 | 八土叉的巴巴博客</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">八土叉的巴巴博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">世界毁灭。唯有爱永恒不变。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A1%8C%E4%B8%BA"><span class="nav-number">1.</span> <span class="nav-text">行为</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A6%82%E5%BF%B5%E6%96%B0%E7%9F%A5"><span class="nav-number">2.</span> <span class="nav-text">概念新知</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">八土叉</p>
+  <div class="site-description" itemprop="description">记录开发过程中的点滴与绘画灵感，分享博客建设与学习笔记。以及希望世界和平。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tages/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://batucha.github.io/2025/04/09/abbrlink/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="八土叉">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="八土叉的巴巴博客">
+      <meta itemprop="description" content="记录开发过程中的点滴与绘画灵感，分享博客建设与学习笔记。以及希望世界和平。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="博客建设日志 | 八土叉的巴巴博客">
+      <meta itemprop="description" content="对博客框架的修改、尝试，都将记录于此。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          博客建设日志
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-04-09 00:03:36" itemprop="dateCreated datePublished" datetime="2025-04-09T00:03:36+08:00">2025-04-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%97%A5%E5%BF%97/" itemprop="url" rel="index"><span itemprop="name">日志</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">对博客框架的修改、尝试，都将记录于此。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>2025.4.9</p>
+<h1 id="行为"><a href="#行为" class="headerlink" title="行为"></a>行为</h1><ul>
+<li>尝试为封面添加图片。失败。初步判断原因为css配置错误。</li>
+<li>为博客添加浏览次数功能 </li>
+<li>修改侧边栏为仅按钮收起，点击空白处不再收起。 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">修改位置：</span><br><span class="line">E:\Work _blog\blog\themes\主题名词\source\js\schemes.js</span><br><span class="line">修改内容：</span><br><span class="line">49行  //this.hideSidebar();// 已经注释掉，避免点击空白区域时隐藏侧边栏 </span><br></pre></td></tr></table></figure></li>
+<li>尝试禁止侧边栏滑动出场。失败。找不到对应设置。</li>
+<li>更新了next为最新版本</li>
+<li>找到了切换next主题的位置：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">E:\Work _blog\blog\themes\主题名词\_config.yml</span><br><span class="line">40行# Schemes</span><br></pre></td></tr></table></figure></li>
+<li>试着用HTML给图片中心加了文字。但效果不好：</li>
+</ul>
+  <div class="image-container" style="position: relative; display: inline-block;">
+  <img src="https://raw.githubusercontent.com/batucha/hexo_image/main/cover-gg-v1.jpg" alt="Cover Image" style="width: 100%; height: auto;opacity: 0.3;">
+  <div class="image-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: rgb(7, 38, 46); font-size: 20px; text-shadow: 3px 3px 30px rgba(5, 34, 72, 0.99);font-family: 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;">
+    这段文字的大小会随着页面变化而变化...
+  </div>
+  </div>
+ 
+<h1 id="概念新知"><a href="#概念新知" class="headerlink" title="概念新知"></a>概念新知</h1><ul>
+<li>CSS</li>
+<li>遮罩层</li>
+<li>yml文件<br>假设你有很多设置需要调整，比如：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">你想更改博客的主题 </span><br><span class="line">你想设置博客的语言 </span><br><span class="line">你想调整显示的布局样式 </span><br></pre></td></tr></table></figure>
+这些都可以在 YML 文件中进行设置，<strong>而不需要直接修改程序代码。</strong>只需要更改文件中的键值对，然后保存即可。</li>
+<li>在开发者模式下（hexo s），修改博客内容或config内容，直接网页刷新即可预览。(<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a>)</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tages/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/04/07/abbrlink/" rel="prev" title="25.4.7_周志1">
+                  <i class="fa fa-angle-left"></i> 25.4.7_周志1
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/04/09/abbrlink/" rel="next" title="随笔">
+                  随笔 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">八土叉</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
